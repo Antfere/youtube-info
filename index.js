@@ -1,6 +1,5 @@
-const R = require('ramda')
-const withCallback = require('./lib/utils/with-callback')
+const titleScrape = require('./video/index.js')
 
-module.exports = R.map(withCallback, {
-  video: require('./lib/video')
-})
+const id = "-5KAN9_CzSA"
+
+titleScrape(id).then(x => console.log(x))
