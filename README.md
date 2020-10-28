@@ -6,7 +6,7 @@ A lightweight version of Philip Klostermann's youtube-info npm module. Similar s
 
 ## Installation
 
-Git clone the repository and run "npm i" to dwonlaod all the node modules from the package.json.
+Git clone the repository and run "npm i" to download all the node modules from the package.json.
 
 ## Usage
 
